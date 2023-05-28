@@ -1,0 +1,139 @@
+:root {
+  --blue: #1E3888;
+  --moonstone: #47A8BD;
+  --light-blue: #d9f8ff;
+  --cream: #F9F6E3;
+  --cordovan: #9C3848;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--light-blue);
+}
+
+main {
+  height: 900px;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.box-bar {
+  height: 50px;
+  width: 100%;
+  border: 5px solid var(--blue);
+  background-color: var(--blue);
+}
+
+.timer-score-box, .high-score-box {
+  height: 100%;
+  width: 300px;
+  border: 5px solid var(--moonstone);
+  margin: 20px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  background-color: white;
+}
+
+.quiz-boxes {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 5%;
+  border: 5px solid var(--moonstone);
+  height: 400px;
+  width: 500px;
+  margin: 20px;
+  border-radius: 15px;
+  background-color: white;
+  padding: 15px;
+
+}
+
+.question-and-option-boxes {
+  height: 80%;
+  width: 100%;
+  background-color: var(--light-blue);
+  border: 2px dashed black;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+
+#timer-box, #score-box {
+  height: 50%;
+  width: 100%;
+  padding: 10px;
+  border: black 1px solid;
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+.high-score-box {
+  padding: 10px;
+  text-align: center;
+}
+
+.high-score-box > h2 {
+  margin: 25px;
+}
+
+#start-game-button {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  width: 40%;
+  text-align: center;
+  border: 2px solid var(--moonstone);
+  background-color: var(--moonstone);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+#start-game-button:hover {
+  cursor: pointer;
+}
+
+#leader-board-box {
+  height: 80%;
+  width: 100%;
+  border: black 1px solid;
+}
+
+#question-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
