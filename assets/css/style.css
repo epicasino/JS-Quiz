@@ -59,8 +59,8 @@ p {
   align-items: center;
   gap: 5%;
   border: 5px solid var(--moonstone);
-  height: 400px;
-  width: 500px;
+  height: 600px;
+  width: 700px;
   margin: 20px;
   border-radius: 15px;
   background-color: white;
@@ -85,7 +85,7 @@ p {
   height: 50%;
   width: 100%;
   padding: 10px;
-  border: black 1px solid;
+  border: 1px solid var(--moonstone);
   display: flex;
   flex-flow: column nowrap;
   text-align: center;
@@ -131,9 +131,37 @@ p {
 
 #question-box {
   width: 100%;
-  height: 100%;
+  height: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.option-boxes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.option-boxes > div {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40%;
+  width: 40%;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid var(--moonstone);
+  background-color: var(--moonstone);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.option-boxes > div:hover {
+  cursor: pointer;
+}
