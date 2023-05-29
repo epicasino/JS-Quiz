@@ -121,6 +121,8 @@ p {
 
 #start-game-button:hover {
   cursor: pointer;
+  background-color: var(--blue);
+  border-color: var(--blue);
 }
 
 #leader-board-box {
@@ -166,4 +168,6 @@ p {
 
 .option-boxes > div:hover {
   cursor: pointer;
+  background-color: var(--blue);
+  border-color: var(--blue);
 }
