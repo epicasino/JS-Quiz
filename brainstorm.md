@@ -33,23 +33,32 @@ for timer and current score container
 
 for main quiz contents
   border in question & option box container --
-      border around question, large text
+      border around question, large text --
 
 ## JS
 
-GIVEN I am taking a code quiz
+GIVEN I am taking a code quiz --
 
 WHEN I click the start button
+    query select start button from html
+    add event listener for start button
+    event listener starts quiz function
+    event listener for answer options
 
 THEN a timer starts and I am presented with a question
+    create timer for 30 seconds
+    create set interval for countdown
+    create function for quiz, activates other functions w/ actual questions
+
+    per question function:
+        text content changes for question-box
+        text content changes for answer-options
 
 WHEN I answer a question
-
-THEN I am presented with another question
-
-WHEN I answer a question incorrectly
-
-THEN time is subtracted from the clock
+    per question function
+        if else function to see if correct answer was chosen
+            if right- next question, +1 points
+            if wrong- -10 seconds to timer, 0 points
 
 WHEN all questions are answered or the timer reaches 0
 
@@ -58,3 +67,4 @@ THEN the game is over
 WHEN the game is over
 
 THEN I can save my initials and my score
+    localStorage
