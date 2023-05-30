@@ -40,7 +40,7 @@ p {
   background-color: var(--blue);
 }
 
-.timer-score-box, .high-score-box {
+.timer-score-box, .user-score-box {
   height: 100%;
   width: 300px;
   border: 5px solid var(--moonstone);
@@ -51,6 +51,10 @@ p {
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
   background-color: white;
+}
+
+.user-score-box {
+  height: 50%;
 }
 
 .quiz-boxes {
@@ -93,12 +97,12 @@ p {
   gap: 10%;
 }
 
-.high-score-box {
+.user-score-box {
   padding: 10px;
   text-align: center;
 }
 
-.high-score-box > h2 {
+.user-score-box > h2 {
   margin: 25px;
 }
 
@@ -125,7 +129,7 @@ p {
   border-color: var(--blue);
 }
 
-#leader-board-box {
+#score-board-box {
   height: 80%;
   width: 100%;
   border: black 1px solid;
@@ -145,6 +149,7 @@ p {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  visibility: visible;
 }
 
 .option-boxes > div {
