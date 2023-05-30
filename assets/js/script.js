@@ -136,7 +136,7 @@ function endGame() {
   localStorage.setItem("score", score);
 
   scoreBoardBoxEl.children[0].textContent =
-    "Name: " + localStorage.getItem("name");
+    "Initials: " + localStorage.getItem("name");
   scoreBoardBoxEl.children[1].textContent =
     "Score: " + localStorage.getItem("score");
 }
