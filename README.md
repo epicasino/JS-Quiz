@@ -1,99 +1,51 @@
-# 04 Web APIs: Code Quiz
+# JavaScript Quiz (Challenge 4)
 
-## Your Task
+## Description
 
-At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
+Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-To help familiarize you with these tests and allow you to use the skills covered in this module, this Challenge invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. 
+- I built a simple JavaScript quiz that incorporates localstorage in order to save your score.
+- This project provided a further understanding in JavaScript logic and WebAPIs.
+- Traversing the DOM has also given me a further understanding with HTML structure.
 
-This week’s coursework will equip you with all the skills you need to succeed in this assignment.
+## Installation
 
-## User Story
+No extensive installation is needed. Simply access via [Gitpages](https://epicasino.github.io/JS-Quiz/).
 
-```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
+## Usage
 
-## Acceptance Criteria
+**When accessing the live deployment, you will be presented with this page:**
+![JavaScript Quiz Homepage](./assets/images/jsquiz-home.png)
 
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score
-```
+**Upon clicking "Start Game", you will be presented with a series of questions. You can click on the correct answer (or incorrect answer) and be penalized or rewarded via +1 point.**
+**At the end of the quiz, you will be presented with this prompt**
+![Javascript After Quiz Prompt](./assets/images/js-quiz-result.png)
 
-## Mock-Up
+**After inputting an initial (or name), you will see this**
+![Javascript After Prompt Message](./assets/images/js-quiz-after-prompt.png)
 
-The following animation demonstrates the application functionality:
+**After refreshing, your score will be saved on the right.**
+![Score board is saved on the right of the page](./assets/images/jsquiz-after-refresh.png)
+## License
 
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
+MIT License
 
-## Grading Requirements
+Copyright (c) 2023 Ray Badua
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This Challenge is graded based on the following criteria: 
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
----
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
